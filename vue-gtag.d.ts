@@ -123,7 +123,7 @@ declare module "vue-gtag" {
     /** Value (i.e., revenue) associated with the event */
     value?: number;
     /** Currency of the value */
-    price?: Currency;
+    currency?: string;
     /** Tax amount */
     tax?: number;
     /** Shipping cost */
