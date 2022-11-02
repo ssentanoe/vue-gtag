@@ -122,6 +122,8 @@ declare module "vue-gtag" {
     affiliation?: string;
     /** Value (i.e., revenue) associated with the event */
     value?: number;
+    /** Currency of the value */
+    price?: Currency;
     /** Tax amount */
     tax?: number;
     /** Shipping cost */
